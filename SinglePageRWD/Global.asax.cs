@@ -35,6 +35,12 @@ namespace SinglePageRWD
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
+#if !DEBUG    
+            //TODO: Add your favorite bootstrapper framework
+            Bundles_Startup.BundleCss();
+            Bundles_Startup.BundleJs();
+#endif
         }
     }
 }
