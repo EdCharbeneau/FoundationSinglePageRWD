@@ -4,6 +4,7 @@
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
+:: Custom Button style
 */
 
 
@@ -21,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 }
 #siteHeader
 {
-    padding-top:20px;
+    padding-top: 20px;
     background: #fff;
 }
 #showcase, #features, #benefits, #media
@@ -36,7 +37,7 @@ h1, h2, h3, h4, h5, h6
 }
 #showcase h1, #showcase h4
 {
-    color:#ddd;
+    color: #ddd;
 }
 
 #siteHeader, #features, #benefits
@@ -47,7 +48,33 @@ h1, h2, h3, h4, h5, h6
 
 #siteFooter, #copyright
 {
-    padding:20px;
+    padding: 20px;
     background: #1f1f1f; /*fallback*/
     background: rgba(0, 0, 0, 0.60);
+}
+
+/* -----------------------------------------
+::Custom button style
+   Creating a custom button style is easy thanks to CSS overrides
+----------------------------------------- */
+.orange.button
+{
+    background-color: #FD651C;
+}
+.nice.orange.button
+{
+    border: 1px solid #1f1f1f;
+}
+.orange.button:hover, .orange.button:focus
+{
+    background-color: #E6340E;
+}
+/* style anchors to match */
+a
+{
+    color: #FD651C;
+}
+a:hover
+{
+    color: #E6340E;
 }
