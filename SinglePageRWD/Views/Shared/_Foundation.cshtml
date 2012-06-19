@@ -40,6 +40,7 @@
 	<![endif]-->
 </head>
 <body>
+    @Html.Partial("_Header")
     <!-- container -->
     <div class="container">
         @RenderBody()
@@ -64,6 +65,6 @@
     <script src="@Url.Content("~/Scripts/app.js")" type="text/javascript"></script>
     <!-- End Combine and Compress These JS Files -->
     @*Page specific scripts go here*@
-    @RenderSection("Scripts",false)
+    @RenderSection("Scripts", false)
 </body>
 </html>
