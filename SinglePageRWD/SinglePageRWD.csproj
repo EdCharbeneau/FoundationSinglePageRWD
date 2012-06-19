@@ -104,6 +104,7 @@
     <Content Include="Content\themes\foundation\orbit\right-arrow.png" />
     <Content Include="Content\themes\foundation\orbit\rotator-black.png" />
     <Content Include="Content\themes\foundation\orbit\timer-black.png" />
+    <Content Include="Content\images\irongrip.png" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
     <Content Include="Ipsum_examples.txt" />
