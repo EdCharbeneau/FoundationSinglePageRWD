@@ -37,6 +37,15 @@
     <Reference Include="Microsoft.Web.Optimization">
       <HintPath>..\packages\Microsoft.Web.Optimization.0.1\lib\net40\Microsoft.Web.Optimization.dll</HintPath>
     </Reference>
+    <Reference Include="NLipsum.Core">
+      <HintPath>..\packages\Prototyping_MVC.1.0\lib\NLipsum.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Prototyping.Ipsum">
+      <HintPath>..\packages\Prototyping_MVC.1.0\lib\Prototyping.Ipsum.dll</HintPath>
+    </Reference>
+    <Reference Include="Prototyping.Placeholdit">
+      <HintPath>..\packages\Prototyping_MVC.1.0\lib\Prototyping.Placeholdit.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
@@ -96,6 +105,7 @@
     <Content Include="Content\themes\foundation\orbit\timer-black.png" />
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
+    <Content Include="Ipsum_examples.txt" />
     <Content Include="MIT-LICENSE.txt" />
     <Content Include="README.txt" />
     <Content Include="robots.txt" />
