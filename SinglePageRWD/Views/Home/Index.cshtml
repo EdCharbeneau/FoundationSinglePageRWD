@@ -9,7 +9,13 @@
                 <a href="#" class="nice large orange button">Buy Now</a>
             </p>
         </div>
-        <div class="six columns">@Html.Placehold(width: 468, height: 304, text: "product rotator")</div>
+        <div class="six columns">
+            <div id="rotator">
+                @Html.Placehold(width: 468, height: 304, text: "product slide 1", backgroundColor:"A7D5F2")
+                @Html.Placehold(width: 468, height: 304, text: "product slide 2", backgroundColor:"F2B807")
+                @Html.Placehold(width: 468, height: 304, text: "product slide 3", backgroundColor:"F23847")
+            </div>
+        </div>
     </div>
 </div>
 <div id="features">
@@ -49,3 +55,11 @@
         </div>
     </div>
 </div>
+@section scripts
+{
+<script type="text/javascript">
+     $(window).load(function() {
+         $('#rotator').orbit();
+     });
+</script>
+}
