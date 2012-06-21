@@ -37,10 +37,11 @@ h1, h2, h3, h4, h5, h6
     background: #003366;
     background: rgba(0, 96, 168, 0.4);
 }
-#showcase .action {
-        text-align: center;
-        margin-top: 4em;
-    }
+#showcase .action
+{
+    text-align: center;
+    margin-top: 4em;
+}
 #showcase h1, #showcase h4
 {
     color: #ddd;
@@ -58,9 +59,10 @@ h1, h2, h3, h4, h5, h6
     background: #1f1f1f; /*fallback*/
     background: rgba(0, 0, 0, 0.60);
 }
-    #copyright p {
-        text-align: center;
-    }
+#copyright p
+{
+    text-align: center;
+}
 /* -----------------------------------------
 ::Custom button style
    Creating a custom button style is easy thanks to CSS overrides
@@ -90,40 +92,45 @@ a:hover
 ::Override navbar style
    Using CSS overrides we can customize the nav bar
 ----------------------------------------- */
-.nav-bar {
+.nav-bar
+{
+    float: right;
     background-color: transparent;
     border: 0;
     margin-top: -20px;
 }
 
-    .nav-bar > li {
-        float: right;
-        border: 0;
-        background-color: #1F1F1F;
-    }
+.nav-bar > li
+{
+    border: 0;
+    background-color: #1F1F1F;
+}
 
-        .nav-bar > li:first-child {
-            border-bottom-right-radius: 10px;
-        }
+.nav-bar > li:first-child
+{
+    border-bottom-left-radius: 10px;
+}
 
-        .nav-bar > li:last-child {
-            border-bottom-left-radius: 10px;
-        }
+.nav-bar > li:last-child
+{
+    border-bottom-right-radius: 10px;
+}
 
-@media only screen and (max-width: 767px) {
-    .nav-bar {
+@media only screen and (max-width: 767px)
+{
+    .nav-bar
+    {
+        float: none;
         margin: 20px -20px;
     }
 
-        .nav-bar > li {
-            float: none;
-        }
+    .nav-bar > li:first-child
+    {
+        border-bottom-left-radius: 0;
+    }
 
-            .nav-bar > li:first-child {
-                border-bottom-right-radius: 0;
-            }
-
-            .nav-bar > li:last-child {
-                border-bottom-left-radius: 0;
-            }
+    .nav-bar > li:last-child
+    {
+        border-bottom-right-radius: 0;
+    }
 }
